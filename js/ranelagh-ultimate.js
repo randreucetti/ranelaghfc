@@ -9,6 +9,8 @@ $(function() {
   $("[data-toggle='tooltip']").tooltip();
 });
 
+var profiles = {"name":"Ross Andreucetti"};
+
 // Contact Form Scripts
 
 $(function() {
@@ -32,7 +34,7 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
       $.ajax({
-        url: 'http://formspree.io/'+ 'ro' + 'ss' + '.andreuce' + 'tti' + '@g' + 'mail' + '.' + 'com',
+        url: 'http://formspree.io/' + 'ro' + 'ss' + '.andreuce' + 'tti' + '@g' + 'mail' + '.' + 'com',
         type: "POST",
         data: {
           name: name,
@@ -66,7 +68,7 @@ $(function() {
           //clear all fields
           $('#contactForm').trigger("reset");
         },
-      })
+      });
     },
     filter: function() {
       return $(this).is(":visible");
