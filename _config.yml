@@ -5,6 +5,7 @@ email: your-email@yourdomain.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 url: "http://yourdomain.com"
 twitter_username: SBootstrap
+baseurl: "."
 github_username:  davidtmiller
 facebook_username:  IronSummitMedia
 
