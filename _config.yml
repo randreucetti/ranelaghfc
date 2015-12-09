@@ -1,16 +1,19 @@
 # Site settings
-title: Clean Blog
-header-img: img/home-bg.jpg
+title: Ranelagh Ultimate
+header-img: img/main.jpg
 email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
+description: "Team website for Dublin based team; Ranelagh Ultimate"
+baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+twitter_username: RanelaghULT
+facebook_username:  RanelaghUltimate
+author: Ross Andreucetti
+author_webite: http://randreucetti.com
+comments: true
 
 # Build settings
 markdown: kramdown
+gems: [jekyll-paginate]
 highlighter: pygments
 permalink: pretty
 paginate: 5
