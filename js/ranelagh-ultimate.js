@@ -9,12 +9,6 @@ $(function() {
   $("[data-toggle='tooltip']").tooltip();
 });
 
-var profiles = {"name":"Ross Andreucetti"};
-
-$(document).ready(function(){
-
-});
-
 // Contact Form Scripts
 
 $(function() {
