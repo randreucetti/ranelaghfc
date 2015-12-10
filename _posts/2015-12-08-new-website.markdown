@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "New website is live"
-subtitle:   "Problems look mighty small from 150 miles up"
+subtitle:   "Check out our new page"
 date:       2015-12-08 10:17:00
 author:     "Ross Andreucetti"
 header-img: "img/new-website.jpg"
