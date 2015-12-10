@@ -3,7 +3,7 @@ title: Ranelagh Ultimate
 header-img: img/main.jpg
 email: your-email@yourdomain.com
 description: "Team website for Dublin based team; Ranelagh Ultimate"
-baseurl: "/ranelaghfc"
+baseurl: "."
 url: "http://yourdomain.com"
 twitter_username: RanelaghULT
 facebook_username:  RanelaghUltimate
