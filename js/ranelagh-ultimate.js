@@ -11,6 +11,10 @@ $(function() {
 
 var profiles = {"name":"Ross Andreucetti"};
 
+$(document).ready(function(){
+
+});
+
 // Contact Form Scripts
 
 $(function() {
