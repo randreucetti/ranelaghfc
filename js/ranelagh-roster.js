@@ -12,6 +12,6 @@ $(document).ready(function() {
 function setTabletopVars(data, tabletop) {
   var years = tabletop.model_names.sort().reverse();
   for (var i = 0; i < years.length; i++) {
-    $('#rosterDropdown').append('<li><a href="/roster">' + years[i] + '</a></li>');
+    $('#rosterDropdown').append('<li><a href="/roster/' + years[i] + '">' + years[i] + '</a></li>');
   }
 }
