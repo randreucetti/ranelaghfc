@@ -9,6 +9,7 @@ twitter_username: RanelaghULT
 facebook_username:  RanelaghUltimate
 author: Ross Andreucetti
 author_webite: http://randreucetti.com
+roster_years: [2015, 2014, 2013, 2012]
 
 # Build settings
 markdown: kramdown
