@@ -26,7 +26,7 @@
           </a>
           <ul class="dropdown-menu">
             {% for year in site.roster_years %}
-            <li><a href="{{ page.url | prepend: site.baseurl }}?year=">{{ year }}</a></li>
+            <li><a href="{{ page.url | prepend: site.baseurl }}?year={{ year }}">{{ year }}</a></li>
             {% endfor %}
           </ul>
         </li>
