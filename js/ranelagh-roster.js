@@ -5,7 +5,9 @@ $(document).ready(function() {
   Tabletop.init({
     key: SPREADSHEET_ID,
     callback: setTabletopVars,
-    simpleSheet: true
+    simpleSheet: true,
+    orderby: 'total',
+    reverse: true
   });
 });
 
@@ -18,7 +20,7 @@ function setTabletopVars(data, tabletop) {
       html += '<div class="row">';
     }
     html += '<div class="col-sm-4">';
-    html += '<figure class="profile"><img src="http://lorempixel.com/140/140" class="img-circle img-responsive"/><figcaption class="img-circle">12</figcaption></figure>';
+    html += '<figure class="profile"><img src="http://lorempixel.com/140/140" class="img-circle img-responsive"/><figcaption class="img-circle">' + player.Total + '</figcaption></figure>';
     html += '</div>';
     if (j % 2 === 3) {
       html += '</div>';
